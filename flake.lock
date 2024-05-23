@@ -1,0 +1,102 @@
+{
+  "nodes": {
+    "levers": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1687557470,
+        "narHash": "sha256-T0TAGZPiI5cwWR2OMLVYW7aj3Aco7v8qIVF7JoEgO9Y=",
+        "owner": "kquick",
+        "repo": "nix-levers",
+        "rev": "0e31d80978a9fb6a96df0722aa298d008a57c53e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kquick",
+        "repo": "nix-levers",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1603791972,
+        "narHash": "sha256-nj2SvACFH+NERpye1kudcuygCcvnsZYv26M2+wgM5vE=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "cd63096d6d887d689543a0b97743d28995bc9bc3",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "20.09",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "pyuavcan-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1439903037,
+        "narHash": "sha256-fXctazAaji6nKWVBfmR4BbEKqQEJuj7uj7ih0Dx0kQA=",
+        "owner": "UAVCAN",
+        "repo": "pyuavcan",
+        "rev": "c58477a644d20ccf95a20c151f3a0402f271c3b8",
+        "type": "github"
+      },
+      "original": {
+        "owner": "UAVCAN",
+        "ref": "c58477a",
+        "repo": "pyuavcan",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "levers": "levers",
+        "nixpkgs": "nixpkgs",
+        "pyuavcan-src": "pyuavcan-src",
+        "uavcan-src": "uavcan-src",
+        "uavcan_DSDL-src": "uavcan_DSDL-src"
+      }
+    },
+    "uavcan-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1567999746,
+        "narHash": "sha256-RolTn3Qmmb/dgq8uwVYJSi/yeZZDyzoLIJ7DeqDtvdQ=",
+        "owner": "Ardupilot",
+        "repo": "uavcan",
+        "rev": "3ef4b88d96466bbcf886f74d0ae169a4c8c1bdb0",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Ardupilot",
+        "ref": "3ef4b88",
+        "repo": "uavcan",
+        "type": "github"
+      }
+    },
+    "uavcan_DSDL-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1527951094,
+        "narHash": "sha256-fKcA/6YZaZqVVcm6JFlfvE6+2Kuuhtb+PiYAJoOzeKM=",
+        "owner": "UAVCAN",
+        "repo": "dsdl",
+        "rev": "192295c4f9b67f4a20b0eabf74757b6597415f2b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "UAVCAN",
+        "ref": "192295c",
+        "repo": "dsdl",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
